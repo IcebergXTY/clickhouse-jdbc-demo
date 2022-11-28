@@ -1,0 +1,9 @@
+server:
+  port: 0
+
+demo:
+  clickhouse:
+    url: jdbc:clickhouse://10.60.52.27:8124/hawkeye
+    properties:
+      user: iceberg
+      password: 123456
